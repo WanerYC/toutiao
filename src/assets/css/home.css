@@ -1,0 +1,143 @@
+.overwrite-title-demo {
+  margin-top: 5px;
+}
+
+.modle-wrap {
+  background-color: #35495E;
+  color: #fff;
+  padding: 1rem;
+  top: 47px;
+  right: 0;
+  z-index: 99999;
+}
+
+.modle-wrap li {
+  margin-bottom: 0.5rem;
+}
+
+.modle-wrap li svg, svg {
+  vertical-align:middle;
+}
+
+.style{
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.15em;
+    fill: #bfcbd9;
+    overflow: hidden;
+}
+
+/* 选择时间 区域模块 */
+.tool {
+  top: 47px;
+  left: 0;
+  background-color: #fff;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.tool .vux-no-group-title , .tool .weui-cells {
+  margin-top: 0;
+}
+
+.tool > div {
+  position: relative;
+  width: 100%;
+}
+
+.tool .dates > div, .tool .org > div {
+  margin-left: 2rem;
+  width: 100%;
+}
+
+.tool .dates > svg, .tool .org > svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  fill: peru;
+}
+
+.dates_g > div, .org_g > div {
+  border: 1px solid #b3b3b3;
+  box-shadow: 1px 1px 0 #dadada inset;
+  background-color: #eaeaea;
+}
+
+.tool .weui-cell__ft {
+  text-align: center;
+  padding-right: 0;
+}
+
+.tool .weui-cell_access .weui-cell__ft:after {
+  border: 0 none;
+}
+
+/* 修改框内文字颜色 */
+.tool .vux-cell-value {
+  color: #666;
+}
+
+.tool .org {
+  margin-left: 1rem;
+}
+
+
+/* .tool {
+  top: 47px;
+  left: 0;
+  background-color: #fff;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.dates {
+  width: 100%;
+}
+
+.tool > div {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 #dadada inset;
+  background-color: #EAEAEA;
+}
+
+.tool svg {
+  padding: 10px 0;
+  margin-right: 0 5px;
+}
+
+.org {
+  width: 100%;
+}
+
+.dp-container, .vux-popup-dialog {
+  transform: translateY(-50%) !important;
+} */
+
+.natTOp {
+  top: 110px;
+  width: 100%;
+}
+
+.natTOp1 {
+  top: 160px;
+  width: 100%;
+}
+
+.org .vux-popup-picker-select {
+  text-align: center !important;
+}
+
+.style{
+  width: 2em;
+  height: 2em;
+  vertical-align: -0.15em;
+  fill: #bfcbd9;
+  overflow: hidden;
+}
