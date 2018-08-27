@@ -1,51 +1,42 @@
 <template>
   <div class="footer pf">
     <!-- 底部员工信息 -->
-    <div class="circle pf">
+    <!-- <div class="circle pf">
       <p class="animate">
         <span>员工号</span>
         <span>{{ tokenId }}</span>
       </p>
-    </div>
-
-  <!-- symbol引用 -->
-  <!-- <div>
-    <div class="num1">
-      <svg class="icon" aria-hidden="true" style="width: 30px; height: 30px;">
-        <use xlink:href="#icon-qushi"></use>
-      </svg>
-    </div>
-  </div> -->
+    </div> -->
 
   <tabbar>
     <tabbar-item selected link="/">
       <!-- <img slot="icon" class=""> -->
       <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">
-        <use xlink:href="#icon-huiyuanfazhanqushi"></use>
+        <use xlink:href="#icon-home"></use>
       </svg>
-      <span slot="label">指标</span>
+      <span slot="label">首页</span>
     </tabbar-item>
     <tabbar-item show-dot link="/detail">
       <!-- <img slot="icon"> -->
       <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">
-        <use xlink:href="#icon-sousuo"></use>
+        <use xlink:href="#icon-favor"></use>
       </svg>
-      <span slot="label">搜索</span>
+      <span slot="label">收藏</span>
     </tabbar-item>
     <!-- <tabbar-item> -->
     <tabbar-item link="/search">
       <!-- <img slot="icon"> -->
       <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">
-        <use xlink:href="#icon-wenben"></use>
+        <use xlink:href="#icon-like"></use>
       </svg>
-      <span slot="label">分享</span>
+      <span slot="label">关注</span>
     </tabbar-item>
     <tabbar-item badge="2"  link="/work">
       <!-- <img slot="icon"> -->
       <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">
-        <use xlink:href="#icon-erji-dashujupingtai"></use>
+        <use xlink:href="#icon-person2"></use>
       </svg>
-      <span slot="label">News</span>
+      <span slot="label">我的</span>
     </tabbar-item>
   </tabbar>
   </div>
@@ -65,9 +56,6 @@ export default {
     TabbarItem
   },
   moutend () {
-    // const ls = window.location.hash;
-    // console.log(ls);
-    // alert(ls)
     this.footerJump()
   },
   methods: {

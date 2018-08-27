@@ -26,16 +26,16 @@ a, p {
 
 #header {
   width: 100%;
-  background-color: #fff !important;
+  background-color: #FF0000 !important;
   position: fixed;
   top: 0px;
   left: 0px;
   z-index: 999999;
-  border-bottom: 1px solid #dcdcdc;
+  /* border-bottom: 1px solid #dcdcdc; */
 }
 
 #header .vux-header-title {
-  color: #333;
+  color: #fff;
 }
 
 #header .vux-header-left a, .vux-header .vux-header-left button, .vux-header .vux-header-right a, .vux-header .vux-header-right button {
