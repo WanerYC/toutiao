@@ -9,7 +9,7 @@
     </div> -->
 
   <tabbar>
-    <tabbar-item selected link="/">
+    <tabbar-item link="/" :selected="$route.path == '/'">
       <!-- <img slot="icon" class=""> -->
       <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">
         <use xlink:href="#icon-home"></use>
@@ -24,14 +24,14 @@
       <span slot="label">收藏</span>
     </tabbar-item>
     <!-- <tabbar-item> -->
-    <tabbar-item link="/search">
+    <tabbar-item link="/h5">
       <!-- <img slot="icon"> -->
       <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">
         <use xlink:href="#icon-like"></use>
       </svg>
       <span slot="label">关注</span>
     </tabbar-item>
-    <tabbar-item badge="2"  link="/work">
+    <tabbar-item badge="2"  link="/user" :selected="$route.path == '/user'">
       <!-- <img slot="icon"> -->
       <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">
         <use xlink:href="#icon-person2"></use>

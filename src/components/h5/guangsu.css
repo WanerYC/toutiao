@@ -1,0 +1,53 @@
+.section1 {
+  /* background: url("../img/bg6.jpg") no-repeat bottom; */
+  background-size: cover;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.section1 .circle {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  background-color:rgba(0, 0, 0, 0.3);
+  top: 3.5rem;
+  left: 50%;
+  margin-left: -8.5rem;
+  /* transform: translateX(-50%); */
+  opacity: 1;
+  color: #fff;
+}
+
+.section1 .circle h5 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.section1 .circle h5:first-child {
+  color: #daec56;
+  font-size: 2.4rem;
+}
+
+.section1 .circle h5:last-child {
+  color: #FFFF01;
+}
+
+.section1 .document1 {
+  width: 100%;
+  /* background-color: red; */
+  top: 55%;
+  left: 0;
+  color: #fff;
+  line-height: 2.4rem;
+
+  font-weight: 700;
+}
+
+.section1 .enjoy {
+  color: #FFFF01;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: enjoyAnimation 1.5s linear 2s;
+}

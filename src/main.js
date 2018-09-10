@@ -9,6 +9,20 @@ import './assets/css/base.css'
 import { AlertPlugin, ToastPlugin, DatetimePlugin } from 'vux'
 import './assets/iconfont/iconfont.js'//引入iconfont.js
 import './assets/iconfont.js'
+import axios from 'axios'
+
+// 引入swiper动画 的css / js
+// import './assets/css/animate.min.css'
+// import './assets/js/swiper.animate1.0.3.min'
+
+// 注册h5的 awesome-swiper 插件
+import vueAwesomeSwiper from 'vue-awesome-swiper'
+// 引入样式
+import 'swiper/dist/css/swiper.css'
+// 全局注册
+Vue.use(vueAwesomeSwiper)
+
+Vue.prototype.$http = axios
 
 Vue.use(AlertPlugin)
 Vue.use(DatetimePlugin)

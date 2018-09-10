@@ -2,6 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/home'
+import User from '@/components/user/user.vue'
+import Test01 from '@/components/test/test01.vue'
+import guangsuH5 from '@/components/h5/guangsu.1.vue'
+import nextTick from '@/components/test/nextclivk.vue'
 
 Vue.use(Router)
 
@@ -16,6 +20,28 @@ const router = new Router({
       path:'/home',
       name: 'home',
       component: Home
+    },
+    {
+      path:'/user',
+      name: 'user',
+      component: User
+    },
+    {
+      path: '/h5',
+      name: 'h5',
+      component: guangsuH5
+    },
+    // 测试的页面 路由
+    {
+      path: '/test01',
+      name: 'test01',
+      component: Test01
+    },
+    // $nextTick 的测试
+    {
+      path: '/nextTick',
+      name: 'nextTick',
+      component: nextTick
     }
   ]
 })

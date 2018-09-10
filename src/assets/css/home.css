@@ -33,13 +33,9 @@
 }
 
 .natTOp {
-  top: 47px;
+  top: 45px;
   width: 100%;
-}
-
-.natTOp1 {
-  top: 160px;
-  width: 100%;
+  /* border-bottom: 1px solid #d0d0d0; */
 }
 
 .org .vux-popup-picker-select {
@@ -67,4 +63,30 @@
 
 .weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon, .weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon > i, .weui-tabbar__item.weui-bar__item_on .weui-tabbar__label {
   color: #FF0000 !important;
+}
+
+/* 内容区域 */
+.content {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+}
+
+.content h5 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content li {
+  padding: 1rem;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.imgscont {
+  margin-top: 0.8rem;
+}
+
+.content li p {
+  margin-top: 0.8rem;
 }

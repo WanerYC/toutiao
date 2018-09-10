@@ -5,7 +5,7 @@ html, body {
   background-color: #eaeaea !important;
 }
 html, body, div, span, header, ul, li, h1, h2, h3, h4, h5, input,
-a, p {
+a, p, i {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -13,7 +13,8 @@ a, p {
   box-sizing: border-box;
   border: none;
   /* font-size: 0.26rem; */
-  font-size:62.5%
+  font-size:62.5%;
+  font-style: normal;
 }
 
 .flex {
