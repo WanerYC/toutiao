@@ -17,12 +17,30 @@
 
 <script>
 import vFooter from '../footer'
+import animate from 'script-loader!assets/js/swiper/swiper.animate.min.js'
   export default {
     components: {
       vFooter
     },
     data() {
       return {
+
+      }
+    },
+    computed : {
+      swiper() {
+        return this.$refs.mySwiper.swiper
+      }
+    },
+    mounted () {
+      // current swiper instance
+      // 然后你就可以使用当前上下文内的swiper对象去做你想做的事了
+      // console.log('this is current swiper instance object', this.swiper)
+      // this.swiper.slideTo(3, 1000, false)
+      this.initSwiper()
+    },
+    methods: {
+      initSwiper () {
         swiperOption: {
           autoplay: false,  // 自动切换
           speed: 1000,   //  滑屏速度
@@ -44,18 +62,7 @@ import vFooter from '../footer'
             console.log(swiper)
           }
         }
-      }
-    },
-    computed : {
-      swiper() {
-        return this.$refs.mySwiper.swiper
-      }
-    },
-    mounted () {
-      // current swiper instance
-      // 然后你就可以使用当前上下文内的swiper对象去做你想做的事了
-      console.log('this is current swiper instance object', this.swiper)
-      // this.swiper.slideTo(3, 1000, false)
+      },
     }
   }
 </script>
