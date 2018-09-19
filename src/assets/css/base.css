@@ -47,6 +47,12 @@ a, p, i {
   border-width: 1px 0 0 1px;
 }
 
+.vux-header .vux-header-left, .vux-header .vux-header-right {
+  top: 8px !important;
+  color: #fff !important;
+}
+
+
 .weui-btn + .weui-btn {
   margin-top: 0 !important;
 }

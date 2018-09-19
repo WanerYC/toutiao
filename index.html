@@ -10,4 +10,19 @@
     <div id="app-box"></div>
     <!-- built files will be auto injected -->
   </body>
+  <!-- <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+      resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+      recalc = function () {
+        var clientWindth = docEl.clientWindth;
+        if(!clientWindth) return
+        if (clientWindth >= 640) {
+          docEl.style.fontSize = '100px';
+        }else {
+          docEl.style.fontSize = 100 * (clientWindth / 640) + 'px';
+        }
+      }
+    })
+  </script> -->
 </html>

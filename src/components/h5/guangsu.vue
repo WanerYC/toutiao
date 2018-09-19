@@ -1,24 +1,18 @@
 <template>
   <div>
+    <iframe src="https://waneryc.github.io/GuangSu-H5/" frameborder="0"></iframe>
     <!-- swiper -->
-    <swiper :options="swiperOption" ref="mySwiper">
+    <!-- <swiper :options="swiperOption" ref="mySwiper">
       <swiper-slide class="swiperSlide1">Slide 1</swiper-slide>
       <swiper-slide class="swiperSlide2">Slide 2</swiper-slide>
       <swiper-slide class="swiperSlide3">Slide 3</swiper-slide>
       <swiper-slide class="swiperSlide4">Slide 4</swiper-slide>
       <swiper-slide class="swiperSlide5">Slide 5</swiper-slide>
-      <!-- <swiper-slide class="swiperSlide6">Slide 6</swiper-slide>
-      <swiper-slide class="swiperSlide7">Slide 7</swiper-slide>
-      <swiper-slide class="swiperSlide8">Slide 8</swiper-slide>
-      <swiper-slide class="swiperSlide9">Slide 9</swiper-slide>
-      <swiper-slide class="swiperSlide10">Slide 10</swiper-slide> -->
-      <div class="swiper-scrollbar"></div> <!--滚动条-->
-      <div class="swiper-button-next"></div> <!--下一项-->
-      <div class="swiper-button-prev"></div>  <!--上一项-->
-      <div class="swiper-pagination" slot="pagination"></div> <!--标页码-->
-    </swiper>
+      <div class="swiper-scrollbar"></div>
+      <div class="swiper-pagination" slot="pagination"></div>
+    </swiper> -->
     <!-- 底部 -->
-    <!-- <v-footer></v-footer> -->
+    <v-footer></v-footer>
   </div>
 </template>
 
@@ -31,7 +25,7 @@ import vFooter from '../footer'
     data() {
       return {
         swiperOption: {
-          autoplay: true,  // 自动切换
+          //autoplay: true,  // 自动切换
           speed: 1000,   //  滑屏速度
           direction: 'vertical', // 垂直方向  horizontal 水平方向  Slides的滑动方向
           autoplayDisableOnInteraction: true, //用户操作swiper之后，是否禁止autoplay
@@ -102,5 +96,16 @@ import vFooter from '../footer'
   .footer {
     z-index: 9;
   }
+
+  iframe {
+    width: 100%;
+    height: 93vh;
+    z-index: 9;
+  }
+
+  .footer[data-v-687721ef] {
+    z-index: 9999;
+  }
+
 </style>
 
