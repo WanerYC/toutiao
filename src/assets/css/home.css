@@ -74,12 +74,13 @@
 }
 
 .content h5 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.3rem;
 }
 
 .content li {
-  padding: 1rem;
+  font-size: 0.5rem;
+  padding: 0.5rem;
   border-bottom: 1px solid #d0d0d0;
 }
 

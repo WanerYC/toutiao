@@ -5,22 +5,12 @@
 
     <div class="search">
 
-    这是语音搜索页<br>
+      这是语音搜索页<br>
 
-    <input id="fileChooser" v-model="msg" @change="upperCase" x-webkit-speech />
-
-    <br />
-
-    {{ msg }}
-
-    <br>
-
-    <input type="text" class="text" name="value_2" id="value_2" x-webkit-speech>
-
-    <input type="text" x-webkit-speech autofocus />
-
+      <input type="text" id="a"/>
+      <button id="b">buttonB</button>
+      <button id="c">停止</button>
     </div>
-
 
     <!-- 底部 -->
     <v-footer :selected='2'></v-footer>
