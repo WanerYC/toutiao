@@ -3,7 +3,7 @@
     <!-- 这是用户界面"我的" 页面 -->
     <div class="hearder pr">
       <!-- 头像 -->
-      <div class="headerImg pa">
+      <div class="headerImg">
         <img src="../../assets/img/01.jpg" alt="">
         <h6>大橘子</h6>
       </div>
@@ -50,18 +50,17 @@ export default {
 }
 
 .headerImg {
-  width: 8rem;
-  height: 10rem;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .headerImg img {
-  display: block;
+  /* display: block; */
   border-radius: 50%;
-  width: 8rem;
-  height: 8rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .headerImg h6 {
