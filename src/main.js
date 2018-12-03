@@ -1,6 +1,8 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
+// import ElementUI from 'element-ui';
+// import 'element-ui/lib/theme-chalk/index.css';
 import FastClick from 'fastclick'
 // import VueRouter from 'vue-router'
 import App from './App'
@@ -14,6 +16,8 @@ import axios from 'axios'
 // 引入swiper动画 的css / js
 // import './assets/css/animate.min.css'
 // import './assets/js/swiper.animate1.0.3.min'
+
+// Vue.use(ElementUI);
 
 // 注册h5的 awesome-swiper 插件
 import vueAwesomeSwiper from 'vue-awesome-swiper'

@@ -33,21 +33,7 @@
       </tab>
     </div>
 
-    <!-- 内容区域 -->
-    <!-- <ul class="content" v-show=" index == num">
-      <li>lailala</li>
-      <li>
-        <h5>习近平引领“一带一路”从愿景走向现实</h5>
-        <ul class="imgscont">
-          <li></li>
-        </ul>
-        <p>
-          <i>央视网新闻</i>
-          <i>评论 68</i>
-          <i>刚刚</i>
-        </p>
-      </li>
-    </ul> -->
+
     <ul  class="content" v-for="(item, index) in navTitlelist" :key="index" v-show=" index == num">
       <li>
         {{ navTitlelist[index] }}
@@ -64,13 +50,604 @@
         </ul>
       </li>
     </ul>
+
+    <!-- 多层级表格 -->
+    <table border="1" cellspacing="0" cellpadding="10" width="100%" class="table"  id="tablesth">
+      <!-- <thead :class="{tablesth: isFixed}"> -->
+      <thead>
+        <tr class="firstHead">
+          <th colspan="1" rowspan="2">系列</th>
+          <th colspan="1" rowspan="2">产品</th>
+          <th colspan="4">存量客户年龄结构</th>
+        </tr>
+        <tr class="twoHead">
+          <th>0-20</th>
+          <th>20-40</th>
+          <th>40-60</th>
+          <th>>60</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+         <tr>
+          <td rowspan="3">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+        <tr>
+          <td rowspan="1">阳光红</td>
+          <td>EB1333精英荟萃1期</td>
+          <td>20万</td>
+          <td>60万</td>
+          <td>100万</td>
+          <td>看着办</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <!-- 简单表格 -->
+    <!-- <x-table style="text-align:center; background-color: skyblue; margin-top: 15px" :cell-border="false">
+      <thead :class="{liveDiv: true ,sticky: isStic}">
+        <tr>
+          <th>这是</th>
+          <th>表头</th>
+          <th>应该</th>
+          <th>顶部</th>
+          <th>固定</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+         <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>金钱</td>
+        </tr>
+        <tr>
+          <td>时间</td>
+          <td>就是</td>
+          <td>金钱</td>
+          <td>金钱</td>
+          <td>命运</td>
+        </tr>
+      </tbody>
+    </x-table> -->
+
     <!-- 底部 -->
     <v-footer :selected='0'></v-footer>
   </div>
 </template>
 
 <script>
-import { XHeader, Actionsheet, TransferDom, ButtonTab, ButtonTabItem, Icon, Datetime, PopupPicker, Tab, TabItem, Swiper, SwiperItem, Group } from 'vux'
+import { XHeader, Actionsheet, XTable, TransferDom, ButtonTab, ButtonTabItem, Icon, Datetime, PopupPicker, Tab, TabItem, Swiper, SwiperItem, Group } from 'vux'
 // 引入iconfont
 import icon from './icon.vue'
 import '@/assets/css/home.css'
@@ -94,7 +671,8 @@ export default {
     Swiper,
     SwiperItem,
     Group,
-    vFooter
+    vFooter,
+    XTable
   },
   data () {
     return {
@@ -113,7 +691,10 @@ export default {
       num: 0,
 
       newList1:[],
-      ishow: 0
+      ishow: 0,
+      isFixed: true,
+      navh: 0,
+      isStic: false
     }
 
   },
@@ -122,6 +703,11 @@ export default {
   },
   mounted () {
      this.getGoodsList()
+      // window.addEventListener('scroll', this.handleScroll)
+      // this.navh = document.querySelector('.natTOp').clientHeight + document.querySelector('.natTOp').offsetTop
+
+      window.addEventListener('scroll', this.navChangeArea("liveDiv", 100))
+      window.addEventListener('touchmove', this.navChangeArea("liveDiv", 100))
   },
   methods: {
     // 导航的点击事件 tab切换事件
@@ -173,8 +759,43 @@ export default {
       	console.log("getUserMedia not supported on your browser!");
       }
 
+    },
+    handleScroll () {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+      console.log('滚动距离'+ scrollTop)
+      var offsetTop = document.querySelector('#tablesth').offsetTop - this.navh
+      console.log('元素距离顶部距离' + offsetTop)
+      if (scrollTop > offsetTop) {
+        // alert('潮了')
+        this.isFixed = true
+      } else {
+        this.isFixed = false
+      }
+    },
+    navChangeArea(message, height) {
+      // var liveDiv = $("#" + message).length ? $("#" + message) : $("." + message);
+      var liveDiv = document.querySelector('.message')
+      if(/android/i.test(navigator.userAgent)){
+          var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+          if (scrollTop < height) {
+            //  该固定
+            alert('该固定')
+              liveDiv.css("position", "relative");
+          } else {
+              liveDiv.css("position", "fixed");
+          }
+      }
+      if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)){
+          this.isStic = true
+      }
     }
 
   }
 }
 </script>
+
+<style>
+ .liveDiv {top: 0;width: 100%;height: 50px;background: green;}
+ .sticky {position: -webkit-sticky;position: -moz-sticky;position: -ms-sticky;position: -o-sticky;position: sticky;}
+</style>
+

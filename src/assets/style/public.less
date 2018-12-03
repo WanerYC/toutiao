@@ -1,0 +1,66 @@
+// 变量
+
+// 1.颜色
+@white: #ffffff;
+@black: #000000;
+@orange: #FF6030; // 主题色
+@blue: #6687ED; // 辅色
+@green: #33D677; // 成功色
+@gray: #ABB0B7;  // 灰色
+@french-grey: #F7F9FC; // 浅灰色
+@cut-off: #EDF0F5; // 分割线颜色
+@dark-font: #333333; // 深色字体
+@font: #606266; // 默认字体颜色
+@light-font: #909399; // 浅色字体
+@tip-font: #C0C4CC; // 字体提示色
+@border-gray: #dcdfe6; // 边框颜色
+
+// 2.字号
+// h1字号
+.h1-size () {
+  font-size: 20px;
+}
+// h2字号
+.h2-size () {
+  font-size: 18px;
+}
+// h3字号
+.h3-size () {
+  font-size: 16px;
+}
+// 正文字号
+.main-size () {
+  font-size: 14px;
+}
+.tip-size () { // 提示文字字号
+  font-size: 12px;
+}
+
+// 提示框
+.tip() {
+  background: rgba(255, 96, 48, 0.1);
+  border-radius: 4px;
+  color: @orange;
+  padding: 10px 24px;
+  line-height: 2;
+  margin-bottom: 24px;
+  font-size: 12px;
+}
+
+// 边框
+.border-style(){
+  border: 1px solid @border-gray;
+  border-radius: 4px;
+}
+
+.cl-green {
+  color: @green !important;
+}
+
+.cl-orange {
+  color: @orange !important;
+}
+
+.cl-blue {
+  color: @blue !important;
+}

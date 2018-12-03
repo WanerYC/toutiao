@@ -1,0 +1,546 @@
+{
+  "data": {
+    "ass_datas": [
+      {
+        "rowsoan":"3",
+        "ASSET": "阳光金系列",
+        "titles": "EB10001同享二号",
+        "END_balance": "674",
+        "AVUG_rate": "5.88",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "阳光金系列",
+        "titles": "EB10001同享二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "阳光金系列",
+        "titles": "EB10001同享二号",
+        "END_balance": "7565",
+        "AVUG_rate": "5.43",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"1",
+        "ASSET": "阳光紫系列",
+        "titles": "子集同光",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"2",
+        "ASSET": "红色时代系列",
+        "titles": "红色年代一号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"2",
+        "ASSET": "红色时代系列",
+        "titles": "红色年代二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"1",
+        "ASSET": "鼠标系列",
+        "titles": "白色鼠标",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "鼠标垫系列",
+        "titles": "青色鼠标垫",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "鼠标垫系列",
+        "titles": "雪青色色鼠标垫",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "鼠标垫系列",
+        "titles": "灰青色鼠标垫",
+        "END_balance": "7648",
+        "AVUG_rate": "5.456",
+        "InCON": "54",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"1",
+        "ASSET": "哈喽world",
+        "titles": "世界一号",
+        "END_balance": "787",
+        "AVUG_rate": "5.546",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "茶几系列",
+        "titles": "灰青色茶几",
+        "END_balance": "78",
+        "AVUG_rate": "5.02",
+        "InCON": "755",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "茶几系列",
+        "titles": "燕青色茶几",
+        "END_balance": "43",
+        "AVUG_rate": "5.02",
+        "InCON": "67",
+        "LABT": "0.75",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "茶几系列",
+        "titles": "灰青色茶几",
+        "END_balance": "400450",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.53",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"5",
+        "ASSET": "键盘系列",
+        "titles": "靛青色键盘",
+        "END_balance": "567",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"5",
+        "ASSET": "键盘系列",
+        "titles": "灰青色键盘",
+        "END_balance": "672",
+        "AVUG_rate": "5.02",
+        "InCON": "45",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"5",
+        "ASSET": "键盘系列",
+        "titles": "灰青色键盘",
+        "END_balance": "345",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"5",
+        "ASSET": "键盘系列",
+        "titles": "黑色色键盘",
+        "END_balance": "856",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"5",
+        "ASSET": "键盘系列",
+        "titles": "灰色键盘",
+        "END_balance": "6767",
+        "AVUG_rate": "5.34",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"6",
+        "ASSET": "显示屏系列",
+        "titles": "4T高显示屏",
+        "END_balance": "765",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"6",
+        "ASSET": "显示屏系列",
+        "titles": "4T高显示屏",
+        "END_balance": "324",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"6",
+        "ASSET": "显示屏系列",
+        "titles": "4T高显示屏",
+        "END_balance": "676",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"6",
+        "ASSET": "显示屏系列",
+        "titles": "4T高显示屏",
+        "END_balance": "4000",
+        "AVUG_rate": "5.56",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"6",
+        "ASSET": "显示屏系列",
+        "titles": "4T高显示屏",
+        "END_balance": "53",
+        "AVUG_rate": "5.02",
+        "InCON": "345",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"6",
+        "ASSET": "显示屏系列",
+        "titles": "4T高显示屏",
+        "END_balance": "4524",
+        "AVUG_rate": "5.02",
+        "InCON": "124",
+        "LABT": "0.9",
+        "Sas": "0.23"
+      },
+      {
+        "rowsoan":"2",
+        "ASSET": "显示系列",
+        "titles": "高清显示屏",
+        "END_balance": "234",
+        "AVUG_rate": "5.78",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"2",
+        "ASSET": "显示系列",
+        "titles": "高清显示屏",
+        "END_balance": "445",
+        "AVUG_rate": "5.02",
+        "InCON": "45",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "镜子系列",
+        "titles": "镜子高清显示屏",
+        "END_balance": "54",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "2.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "镜子系列",
+        "titles": "镜子高清显示屏",
+        "END_balance": "4000",
+        "AVUG_rate": "5.56",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"3",
+        "ASSET": "镜子系列",
+        "titles": "镜子高清显示屏",
+        "END_balance": "4000",
+        "AVUG_rate": "67.02",
+        "InCON": "09",
+        "LABT": "3.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"4",
+        "ASSET": "外套系列",
+        "titles": "妮子大衣",
+        "END_balance": "67",
+        "AVUG_rate": "5.02",
+        "InCON": "23",
+        "LABT": "0.99",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"4",
+        "ASSET": "外套系列",
+        "titles": "妮子大衣",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"4",
+        "ASSET": "外套系列",
+        "titles": "妮子大衣",
+        "END_balance": "5656",
+        "AVUG_rate": "5.02",
+        "InCON": "32",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"4",
+        "ASSET": "外套系列",
+        "titles": "妮子大衣",
+        "END_balance": "78",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      }
+    ],
+    "ass_datass": [
+      {
+        "rowsoan":"3",
+        "ASSET": "阳光金系列",
+        "titles": "EB10001同享二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "ASSET": "阳光金系列",
+        "titles": "EB10001同享二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "ASSET": "阳光金系列",
+        "titles": "EB10001同享二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"1",
+        "ASSET": "阳光紫系列",
+        "titles": "子集同光",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"2",
+        "ASSET": "红色时代系列",
+        "titles": "红色年代一号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "ASSET": "红色时代系列",
+        "titles": "绿色色年代二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "rowsoan":"4",
+        "ASSET": "绿色时代系列",
+        "titles": "绿色年代二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "ASSET": "绿色时代系列",
+        "titles": "绿色年代二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "ASSET": "绿色时代系列",
+        "titles": "红色年代二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      },
+      {
+        "ASSET": "绿色时代系列",
+        "titles": "色年代二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9"
+      }
+    ],
+    "ass_titles": [
+      {
+        "name": "系列",
+        "width": "50px",
+        "rowspan": "2"
+      },
+      {
+        "name": "产品",
+        "width": "50px",
+        "rowspan": "2"
+      },
+      {
+        "name": "日均余额",
+        "width": "50px",
+        "rowspan": "2"
+      },
+      {
+        "name": "年龄",
+        "width": "50px",
+        "cospan": "4"
+      }
+    ],
+    "libil_title": [
+      {
+        "name": "1-20",
+        "width": "50px"
+      },
+      {
+        "name": "20-50",
+        "width": "50px"
+      },
+      {
+        "name": "50-70",
+        "width": "50px"
+      },
+      {
+        "name": "70-100",
+        "width": "50px"
+      }
+    ],
+    "data_two": [
+      {
+        "ASSET": "阳光金系列",
+        "titles": "EB10001同享二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9",
+        "rowspan": "2"
+      },
+      {
+        "titles": "EB10001同享二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9",
+        "rowspan": "1"
+      },
+      {
+        "ASSET": "阳光紫系列",
+        "titles": "EB10001滤镜紫一号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9",
+        "rowspan": "3"
+      },
+      {
+        "titles": "EB10001滤镜紫二号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9",
+        "rowspan": "1"
+      }
+      ,
+      {
+        "titles": "EB10001滤镜紫三号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9",
+        "rowspan": "1"
+      },
+      {
+        "ASSET": "美琪小猪",
+        "titles": "EB10001小猪一号",
+        "END_balance": "4000",
+        "AVUG_rate": "5.02",
+        "InCON": "12",
+        "LABT": "0.9",
+        "Sas": "0.9",
+        "rowspan": "1"
+      }
+    ]
+  },
+  "result": {
+    "code": "0",
+    "msg": "操作成功"
+  }
+}

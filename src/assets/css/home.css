@@ -91,3 +91,30 @@
 .content li p {
   margin-top: 0.8rem;
 }
+
+.table {
+  top: 60px;
+  font-size: 0.5rem;
+  background-color: #fff;
+}
+
+#homes {
+  margin-bottom: 4rem;
+}
+
+.tablesth {
+  width: 100%;
+  position:fixed;
+  background-color:#Fff;
+  top:89px;
+  z-index:999;
+}
+
+.tablesth tr {
+  width: 100%;
+}
+
+.tablesth tr th {
+  width: 100%;
+}
+

@@ -16,12 +16,12 @@
       </svg>
       <span slot="label">首页</span>
     </tabbar-item>
-    <tabbar-item show-dot link="/search" :selected="$route.path == '/search'">
+    <tabbar-item show-dot link="/ziguan" :selected="$route.path == '/ziguan'">
       <!-- <img slot="icon"> -->
       <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">
         <use xlink:href="#icon-favor"></use>
       </svg>
-      <span slot="label">搜索</span>
+      <span slot="label">资管指标</span>
     </tabbar-item>
     <!-- <tabbar-item> -->
     <tabbar-item link="/h5" :selected="$route.path == '/h5'">
