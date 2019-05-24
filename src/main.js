@@ -11,7 +11,11 @@ import './assets/css/base.css'
 import { AlertPlugin, ToastPlugin, DatetimePlugin } from 'vux'
 import './assets/iconfont/iconfont.js'//引入iconfont.js
 import './assets/iconfont.js'
+// 引入swiper
+// import './assets/swiper/swiper.min.css'
+// import './assets/swiper/swiper.min.js'
 import axios from 'axios'
+
 
 // 引入swiper动画 的css / js
 // import './assets/css/animate.min.css'

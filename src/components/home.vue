@@ -779,7 +779,7 @@ export default {
           var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
           if (scrollTop < height) {
             //  该固定
-            alert('该固定')
+            // alert('该固定')
               liveDiv.css("position", "relative");
           } else {
               liveDiv.css("position", "fixed");

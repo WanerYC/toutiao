@@ -42,7 +42,18 @@ D:\one\n\excess 安装了element-ui
 参考 https://blog.csdn.net/ch834301/article/details/81259337
 
 使用的iscroll 插件
+将iscroll 文件夹放入 node_module中
+将iscrollTable.js 保存至static 或者 assets 中
+在页面中引入
+import { createIScroller, refreshScroller } from "../../../assets/js/iscrollTable.js";
 
 
 
+上拉刷新，下拉加载
 
+在线json数据
+https://api.github.com/repos/typecho-fans/plugins/contents/
+
+
+2019/05/24 启动页需求
+splash.vue

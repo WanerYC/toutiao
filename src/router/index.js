@@ -12,6 +12,8 @@ import nextTick from '@/components/test/nextclivk.vue'
 import Ziguan from '@/page/ziguan/ziguan.vue'
 import Yearjiegou from '@/page/ziguan/six/years.vue'
 import Tables from '@/page/ziguan/tables.vue'
+import splash from '@/page/splash/splash.vue'
+import { resolve } from 'url';
 
 Vue.use(Router)
 
@@ -19,8 +21,14 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: Home
+      // name: 'HelloWorld',
+      name: 'splash',
+      component: splash
+    },
+    {
+      path: '/splash',
+      name: 'splash',
+      component: splash
     },
     {
       path:'/home',
@@ -81,7 +89,45 @@ const router = new Router({
       path: '/hometext1',
       name: 'hometext',
       component: HometextO
-    }
+    },
+    // 预览pdf的测试
+    {
+      path: '/pdf',
+      name: 'Pdf',
+      component: resolve => { require(['@/page/pdf/pdf.vue'], resolve)},
+      meta:{keepAlive: false}
+    },
+    {
+      path: '/pdfdetail',
+      name: 'Pdfdetail',
+      component: resolve => { require(['@/page/pdf/pdfdetail.vue'], resolve)},
+      meta:{keepAlive: false}
+    },
+    {
+      path: '/toploading',
+      name: 'topLoading',
+      component: resolve => { require(['@/page/shanglashuaxin/topLoading.vue'], resolve)},
+      meta:{keepAlive: false}
+    },
+    // 上拉刷新
+    {
+      path: '/uprefresh',
+      name: 'upRefresh',
+      component: resolve => { require(['@/page/upRefresh/mains.vue'], resolve)},
+      meta:{keepAlive: false}
+    },
+    // {
+    //   path: '/helloWorld',
+    //   name: 'HelloWorld',
+    //   component: resolve => { require(['@/components/HelloWorld.vue'], resolve)},
+    //   meta:{keepAlive: false}
+    // },
+    // {
+    //   path: '/pdfmd',
+    //   name: 'pdfMd',
+    //   component: resolve => { require(['@/components/pdf.md.vue'], resolve)},
+    //   meta:{keepAlive: false}
+    // }
   ]
 })
 

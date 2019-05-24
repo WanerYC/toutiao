@@ -21,7 +21,7 @@
     </group>
 
     <!-- 底部 -->
-    <v-footer :selected='3'></v-footer>
+    <v-footer :selected='4'></v-footer>
   </div>
 </template>
 

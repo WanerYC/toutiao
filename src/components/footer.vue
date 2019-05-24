@@ -31,6 +31,13 @@
       </svg>
       <span slot="label">关注</span>
     </tabbar-item>
+    <tabbar-item badge="1"  link="/Pdf" :selected="$route.path == '/pdf'">
+      <!-- <img slot="icon"> -->
+      <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">
+        <use xlink:href="#icon-person2"></use>
+      </svg>
+      <span slot="label">PDF</span>
+    </tabbar-item>
     <tabbar-item badge="2"  link="/user" :selected="$route.path == '/user'">
       <!-- <img slot="icon"> -->
       <svg class="icon" slot="icon" aria-hidden="true" style="width: 30px; height: 30px;">

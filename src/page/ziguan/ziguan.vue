@@ -34,7 +34,7 @@
     </div>
 
     <!-- 底部 -->
-    <v-footer :selected='2'></v-footer>
+    <v-footer :selected='3'></v-footer>
   </div>
 </template>
 
